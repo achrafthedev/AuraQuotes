@@ -1,0 +1,9 @@
+services:
+  quote-generator:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: aura-quotes-app
+    ports:
+      - "8085:80"
+    restart: unless-stopped
