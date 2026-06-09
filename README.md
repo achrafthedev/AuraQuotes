@@ -29,13 +29,13 @@ Fully containerized and optimized with Nginx for sub-second delivery.
 ## 🛠️ Project Structure
 
 ```text
-Random-Quote-Generator/
+AuraQuotes/
 ├── index.html          # Main HTML structure & layouts
 ├── style.css           # Glassmorphism & custom variables theme system
 ├── script.js           # Core state management & canvas layout drawing
 ├── quotes.js           # Offline fallback quote dataset (~120 quotes)
 ├── Dockerfile          # Alpine Nginx container builder
-├── docker-compose.yml  # Docker Compose configuration (mapping port 8080)
+├── docker-compose.yml  # Docker Compose configuration (mapping port 8085)
 ├── nginx.conf          # Optimized Nginx config with compression & security headers
 └── README.md           # Developer documentation
 ```
@@ -52,8 +52,8 @@ Since the project uses vanilla web technologies and includes a local database sc
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/achrafthedev/Random-Quote-Generator.git
-   cd Random-Quote-Generator
+   git clone https://github.com/achrafthedev/AuraQuotes.git
+   cd AuraQuotes
    ```
 2. **Open the App**:
    - Double-click the `index.html` file to run it in your default web browser instantly.
